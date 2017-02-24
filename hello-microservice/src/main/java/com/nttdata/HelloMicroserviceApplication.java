@@ -13,7 +13,7 @@ public class HelloMicroserviceApplication {
 		SpringApplication.run(HelloMicroserviceApplication.class, args);
 	}
 
-	@RequestMapping("/")
+	@RequestMapping("/hello")
 	public String sayHello() {
 		return ("Hello, SpringBoot on Wildfly created by Joby");
 	}
